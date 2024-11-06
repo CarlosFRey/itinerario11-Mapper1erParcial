@@ -1,6 +1,8 @@
 using BLL;
 using DAL;
 using Entity;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace PrimerParcial_LUG_CarlosRey
 {
@@ -8,6 +10,7 @@ namespace PrimerParcial_LUG_CarlosRey
     {
         PartidoBLL partidoBLL = new PartidoBLL();
         DeportesBLL deportesBLL = new DeportesBLL();
+        List<Partido> lstpartidos = new List<Partido>();
         public Form1()
         {
             InitializeComponent();
@@ -40,7 +43,10 @@ namespace PrimerParcial_LUG_CarlosRey
             try
             {
                 dgvPartidos.DataSource = null;
+
                 dgvPartidos.DataSource = partidoBLL.getpartidos();
+                dgvPartidos.Columns["DeportePartido"].Visible = false;
+                dgvPartidos.Columns["DescripcionDeporte"].HeaderText = "Deporte";
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
 
@@ -75,7 +81,7 @@ namespace PrimerParcial_LUG_CarlosRey
             {
                 Partido nuevoPartido = new Partido();
                 nuevoPartido.DeportePartido = new Deporte();
-                nuevoPartido.DeportePartido.IdDeporte= Convert.ToInt32(cmbDeporte.SelectedValue);
+                nuevoPartido.DeportePartido.IdDeporte = Convert.ToInt32(cmbDeporte.SelectedValue);
                 nuevoPartido.EquipoLocal = txtLocal.Text;
                 nuevoPartido.EquipoVisitante = txtVisitante.Text;
                 nuevoPartido.FechaPartido = dtpFechaPartido.Value;
@@ -123,6 +129,34 @@ namespace PrimerParcial_LUG_CarlosRey
             try
             {
                 //No llego a completarlo, la idea era completarlos textbox si existía el partido.
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void btnAgregarPartidoEnCola_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Partido nuevoPartido = new Partido();
+                nuevoPartido.DeportePartido = new Deporte();
+                nuevoPartido.DeportePartido.IdDeporte = Convert.ToInt32(cmbDeporte.SelectedValue);
+                nuevoPartido.EquipoLocal = txtLocal.Text;
+                nuevoPartido.EquipoVisitante = txtVisitante.Text;
+                nuevoPartido.FechaPartido = dtpFechaPartido.Value;
+                lstpartidos.Add(nuevoPartido);
+
+                MessageBox.Show("Partido agregado a la cola correctamente");
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void btnGuardarCola_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                partidoBLL.GuardarColaPartidos(lstpartidos);
+                lstpartidos.Clear();
+                ActualizarDGV();
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }

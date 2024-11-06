@@ -31,6 +31,8 @@
             btnTestDB = new Button();
             label1 = new Label();
             gbPartido = new GroupBox();
+            btnGuardarCola = new Button();
+            btnAgregarPartidoEnCola = new Button();
             btnGuardarPartido = new Button();
             dtpFechaPartido = new DateTimePicker();
             label4 = new Label();
@@ -40,6 +42,7 @@
             label2 = new Label();
             cmbDeporte = new ComboBox();
             txtDeporte = new Label();
+            pictureBox1 = new PictureBox();
             dgvPartidos = new DataGridView();
             groupBox1 = new GroupBox();
             btnActualizarDatos = new Button();
@@ -51,6 +54,7 @@
             cmbIdPartidos = new ComboBox();
             label5 = new Label();
             gbPartido.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvPartidos).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -78,6 +82,8 @@
             // gbPartido
             // 
             gbPartido.BackColor = Color.LightSteelBlue;
+            gbPartido.Controls.Add(btnGuardarCola);
+            gbPartido.Controls.Add(btnAgregarPartidoEnCola);
             gbPartido.Controls.Add(btnGuardarPartido);
             gbPartido.Controls.Add(dtpFechaPartido);
             gbPartido.Controls.Add(label4);
@@ -87,13 +93,40 @@
             gbPartido.Controls.Add(label2);
             gbPartido.Controls.Add(cmbDeporte);
             gbPartido.Controls.Add(txtDeporte);
+            gbPartido.Controls.Add(pictureBox1);
             gbPartido.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             gbPartido.Location = new Point(4, 16);
             gbPartido.Name = "gbPartido";
-            gbPartido.Size = new Size(242, 207);
+            gbPartido.Size = new Size(242, 312);
             gbPartido.TabIndex = 2;
             gbPartido.TabStop = false;
             gbPartido.Text = "Ingresar Nuevo Partido";
+            // 
+            // btnGuardarCola
+            // 
+            btnGuardarCola.BackColor = Color.ForestGreen;
+            btnGuardarCola.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnGuardarCola.ForeColor = Color.White;
+            btnGuardarCola.Location = new Point(6, 255);
+            btnGuardarCola.Name = "btnGuardarCola";
+            btnGuardarCola.Size = new Size(230, 36);
+            btnGuardarCola.TabIndex = 10;
+            btnGuardarCola.Text = "Guardar partidos en Cola";
+            btnGuardarCola.UseVisualStyleBackColor = false;
+            btnGuardarCola.Click += btnGuardarCola_Click;
+            // 
+            // btnAgregarPartidoEnCola
+            // 
+            btnAgregarPartidoEnCola.BackColor = Color.ForestGreen;
+            btnAgregarPartidoEnCola.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarPartidoEnCola.ForeColor = Color.White;
+            btnAgregarPartidoEnCola.Location = new Point(6, 213);
+            btnAgregarPartidoEnCola.Name = "btnAgregarPartidoEnCola";
+            btnAgregarPartidoEnCola.Size = new Size(230, 36);
+            btnAgregarPartidoEnCola.TabIndex = 9;
+            btnAgregarPartidoEnCola.Text = "Agregar En Cola de Guardado";
+            btnAgregarPartidoEnCola.UseVisualStyleBackColor = false;
+            btnAgregarPartidoEnCola.Click += btnAgregarPartidoEnCola_Click;
             // 
             // btnGuardarPartido
             // 
@@ -181,12 +214,21 @@
             txtDeporte.TabIndex = 0;
             txtDeporte.Text = "Deporte:";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Black;
+            pictureBox1.Location = new Point(6, 202);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(230, 104);
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
             // dgvPartidos
             // 
             dgvPartidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPartidos.Location = new Point(260, 44);
             dgvPartidos.Name = "dgvPartidos";
-            dgvPartidos.Size = new Size(840, 420);
+            dgvPartidos.Size = new Size(840, 525);
             dgvPartidos.TabIndex = 3;
             // 
             // groupBox1
@@ -201,7 +243,7 @@
             groupBox1.Controls.Add(cmbIdPartidos);
             groupBox1.Controls.Add(label5);
             groupBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(4, 229);
+            groupBox1.Location = new Point(4, 334);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(243, 235);
             groupBox1.TabIndex = 4;
@@ -293,7 +335,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1108, 472);
+            ClientSize = new Size(1108, 581);
             Controls.Add(groupBox1);
             Controls.Add(dgvPartidos);
             Controls.Add(gbPartido);
@@ -304,6 +346,7 @@
             Load += Form1_Load;
             gbPartido.ResumeLayout(false);
             gbPartido.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvPartidos).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -335,5 +378,8 @@
         private Button btnEliminarPartido;
         private ComboBox cmbIdPartidos;
         private Label label5;
+        private Button btnAgregarPartidoEnCola;
+        private Button btnGuardarCola;
+        private PictureBox pictureBox1;
     }
 }

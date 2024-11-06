@@ -15,6 +15,7 @@ namespace Mapper
             Partido nuevoPartido = new Partido()
             {
                 IdPartido = Convert.ToInt32(reader["ID_PARTIDO"].ToString()),
+                DeportePartido = deporte,
                 EquipoLocal = reader["EQUIPO_LOCAL"].ToString(),
                 EquipoVisitante = reader["EQUIPO_VISITANTE"].ToString(),
                 FechaRegistro = Convert.ToDateTime(reader["FECHA_REGISTRO"].ToString()),

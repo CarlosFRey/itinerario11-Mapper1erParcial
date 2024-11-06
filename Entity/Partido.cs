@@ -20,6 +20,11 @@ namespace Entity
         public DateTime FechaPartido { get; set; }
         public int MarcadorLocal { get; set; }
         public int MarcadorVisitante { get; set; }
+        public string DescripcionDeporte
+        {
+            get { return deportePartido != null ? deportePartido.Descripcion : "Sin Deporte"; }
+        }
         public Deporte DeportePartido { get => deportePartido; set => deportePartido = value; }
+
     }
 }

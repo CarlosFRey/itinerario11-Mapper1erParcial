@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69CD9F1D-84A9-45FF-B77C-C22F390FFF8A}|..\\BLL\\BLL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6710CDBE-8415-4A55-95E3-3E6F80C2B071}|UI-PrimerParcial-LUG-CarlosRey.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\primerparcial-lug-carlosrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6710CDBE-8415-4A55-95E3-3E6F80C2B071}|UI-PrimerParcial-LUG-CarlosRey.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CA381162-9D20-4431-B75C-DDC3D9E47684}|..\\Entity\\Entity.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6710CDBE-8415-4A55-95E3-3E6F80C2B071}|UI-PrimerParcial-LUG-CarlosRey.csproj|E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6710CDBE-8415-4A55-95E3-3E6F80C2B071}|UI-PrimerParcial-LUG-CarlosRey.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33543877-6660-4AB2-918C-7AC6D0DD0A7F}|..\\DAL\\DAL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\dal\\partidosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33543877-6660-4AB2-918C-7AC6D0DD0A7F}|..\\DAL\\DAL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\dal\\deportesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74A57A31-711E-402E-B4FB-96E83629828C}|..\\Mapper\\Mapper.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\mapper\\partidosmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -23,7 +23,10 @@
       "AbsoluteMoniker": "D:0:0:{74A57A31-711E-402E-B4FB-96E83629828C}|..\\Mapper\\Mapper.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\mapper\\deportesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA381162-9D20-4431-B75C-DDC3D9E47684}|..\\Entity\\Entity.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33543877-6660-4AB2-918C-7AC6D0DD0A7F}|..\\DAL\\DAL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\dal\\partidosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33543877-6660-4AB2-918C-7AC6D0DD0A7F}|..\\DAL\\DAL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\dal\\deportesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33543877-6660-4AB2-918C-7AC6D0DD0A7F}|..\\DAL\\DAL.csproj|e:\\uai\\5to cuatrimestre\\lug\\programas\\itinerario11-mapper\\primer parcial\\itinerario11-mapper1erparcial\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -95,17 +98,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAlwEoAAAANAAAAAAAAAA==",
+              "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T13:38:07.269Z",
               "IsPinned": true,
@@ -113,12 +116,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T13:53:51.939Z",
               "IsPinned": true,
@@ -134,39 +137,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DAL",
+              "DocumentIndex": 0,
+              "Title": "PartidoBLL.cs",
+              "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\BLL\\PartidoBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\PartidoBLL.cs",
+              "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\BLL\\PartidoBLL.cs",
+              "RelativeToolTip": "..\\BLL\\PartidoBLL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAADJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:50:17.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAL.csproj",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "..\\DAL\\DAL.csproj",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj",
               "RelativeToolTip": "..\\DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-06T16:21:40.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T16:21:40.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PartidosDAO.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\PartidosDAO.cs",
               "RelativeDocumentMoniker": "..\\DAL\\PartidosDAO.cs",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\PartidosDAO.cs",
               "RelativeToolTip": "..\\DAL\\PartidosDAO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T16:02:09.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Partido.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Partido.cs",
               "RelativeDocumentMoniker": "..\\Entity\\Partido.cs",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Partido.cs",
               "RelativeToolTip": "..\\Entity\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T15:51:13.47Z",
               "EditorCaption": ""
@@ -192,14 +207,14 @@
               "RelativeDocumentMoniker": "..\\Mapper\\PartidosMapper.cs",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\PartidosMapper.cs",
               "RelativeToolTip": "..\\Mapper\\PartidosMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T16:04:32.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UI-PrimerParcial-LUG-CarlosRey.csproj",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\UI-PrimerParcial-LUG-CarlosRey.csproj",
               "RelativeDocumentMoniker": "UI-PrimerParcial-LUG-CarlosRey.csproj",
@@ -207,12 +222,11 @@
               "RelativeToolTip": "UI-PrimerParcial-LUG-CarlosRey.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T13:07:42.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:07:42.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DeportesDAO.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DeportesDAO.cs",
               "RelativeDocumentMoniker": "..\\DAL\\DeportesDAO.cs",
@@ -225,20 +239,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mapper",
+              "DocumentIndex": 10,
+              "Title": "Mapper.csproj",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj",
               "RelativeDocumentMoniker": "..\\Mapper\\Mapper.csproj",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj",
               "RelativeToolTip": "..\\Mapper\\Mapper.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-06T16:05:37.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T16:05:37.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DeportesBLL.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\BLL\\DeportesBLL.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\BLL\\DeportesBLL.cs",
@@ -246,12 +259,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\BLL\\DeportesBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:59:37.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:59:37.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DeportesDAO.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DeportesDAO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\DAL\\DeportesDAO.cs",
@@ -259,12 +271,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\DAL\\DeportesDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:57:16.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:57:16.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PartidoBLL.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\BLL\\PartidoBLL.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\BLL\\PartidoBLL.cs",
@@ -272,12 +283,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\BLL\\PartidoBLL.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwEQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:52:45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:52:45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PartidosDAO.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\PartidosDAO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\DAL\\PartidosDAO.cs",
@@ -285,12 +295,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\DAL\\PartidosDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:43:06.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:43:06.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Deporte.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Deporte.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\Entity\\Deporte.cs",
@@ -298,12 +307,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\Entity\\Deporte.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:31:33.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:31:33.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Partido.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Partido.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\Entity\\Partido.cs",
@@ -311,12 +319,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\Entity\\Partido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:28:10.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:28:10.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TestDBBLL.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\BLL\\TestDBBLL.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\BLL\\TestDBBLL.cs",
@@ -324,12 +331,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\BLL\\TestDBBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:32:20.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:32:20.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PrimerParcialDAO.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\PrimerParcialDAO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\DAL\\PrimerParcialDAO.cs",
@@ -337,12 +343,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\DAL\\PrimerParcialDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:15:37.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:15:37.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DBAccess.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DBAccess.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\DAL\\DBAccess.cs",
@@ -350,12 +355,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\DAL\\DBAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:06:14.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:06:14.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TestDB.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\TestDB.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\Entity\\TestDB.cs",
@@ -363,12 +367,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\Entity\\TestDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:16:22.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:16:22.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Entity.csproj",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\Entity\\Entity.csproj",
@@ -376,12 +379,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\Entity\\Entity.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T13:13:14.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:13:14.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DAL.csproj",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Primer Parcial\\DAL\\DAL.csproj",
@@ -389,49 +391,46 @@
               "RelativeToolTip": "..\\..\\..\\..\\Primer Parcial\\DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T13:09:07.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:09:07.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T13:39:34.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UI-PrimerParcial-LUG-CarlosRey",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\UI-PrimerParcial-LUG-CarlosRey.csproj",
               "RelativeDocumentMoniker": "UI-PrimerParcial-LUG-CarlosRey.csproj",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\UI-PrimerParcial-LUG-CarlosRey.csproj",
               "RelativeToolTip": "UI-PrimerParcial-LUG-CarlosRey.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T13:08:02.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:08:02.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Settings.settings",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "Properties\\Settings.settings",
               "ToolTip": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Properties\\Settings.settings",
               "RelativeToolTip": "Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-09-29T13:08:08.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:08:08.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\PrimerParcial-LUG-CarlosRey\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
