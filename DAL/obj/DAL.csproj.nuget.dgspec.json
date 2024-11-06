@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj": {}
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj": {
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj",
+        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\reyca\\.nuget\\packages\\",
-        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\obj\\",
+        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj": {
-                "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj"
+              "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj": {
+                "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj"
+              },
+              "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj": {
+                "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -82,14 +85,14 @@
         }
       }
     },
-    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj": {
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj",
+        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj",
+        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\reyca\\.nuget\\packages\\",
-        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\obj\\",
+        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,6 +129,80 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj",
+        "projectName": "Mapper",
+        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\reyca\\.nuget\\packages\\",
+        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\reyca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj": {
+                "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

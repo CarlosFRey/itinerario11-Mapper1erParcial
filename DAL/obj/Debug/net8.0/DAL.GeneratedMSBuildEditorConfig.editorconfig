@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DAL
-build_property.ProjectDir = E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\
+build_property.ProjectDir = E:\UAI\5to Cuatrimestre\LUG\Programas\Itinerario11-Mapper\Primer Parcial\itinerario11-Mapper1erParcial\DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

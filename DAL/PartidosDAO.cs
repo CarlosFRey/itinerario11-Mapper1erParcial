@@ -1,4 +1,5 @@
 ﻿using System;
+using Mapper;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace DAL
 {
     public class PartidosDAO
     {
+        DeportesDAO DeportesDAO = new DeportesDAO();
         public List<Partido> getPartidos()
         {
             try
@@ -24,17 +26,8 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                Partido nuevoPartido = new Partido()
-                                {
-                                    IdPartido = reader.GetInt32(0),
-                                    IdDeporte = reader.GetInt32(1),
-                                    EquipoLocal = reader.GetString(2),
-                                    EquipoVisitante = reader.GetString(3),
-                                    FechaRegistro = reader.GetDateTime(4),
-                                    FechaPartido = reader.GetDateTime(5),
-                                    MarcadorLocal = reader.GetInt32(6),
-                                    MarcadorVisitante = reader.GetInt32(7)
-                                };
+                                Deporte deporte = DeportesDAO.getDeportesById(Convert.ToInt32(reader["ID_DEPORTE"].ToString()));
+                                Partido nuevoPartido = PartidosMapper.Map(reader, deporte);
                                 lstPartidos.Add(nuevoPartido);
                             }
                         }
@@ -55,7 +48,7 @@ namespace DAL
                     string cadenaGuardado = "INSERT INTO PARTIDO (ID_DEPORTE, EQUIPO_LOCAL, EQUIPO_VISITANTE, FECHA_PARTIDO, MARCADOR_LOCAL, MARCADOR_VISITANTE) VALUES (@IdDeporte, @EquipoLocal, @EquipoVisitante, @FechaPartido, @MarcadorLocal, @MarcadorVisitante)";
                     using (SqlCommand cmd = new SqlCommand(cadenaGuardado, conn))
                     {
-                        cmd.Parameters.AddWithValue("@IdDeporte", nuevoPartido.IdDeporte);
+                        cmd.Parameters.AddWithValue("@IdDeporte", nuevoPartido.DeportePartido.IdDeporte);
                         cmd.Parameters.AddWithValue("@EquipoLocal", nuevoPartido.EquipoLocal);
                         cmd.Parameters.AddWithValue("@EquipoVisitante", nuevoPartido.EquipoVisitante);
                         cmd.Parameters.AddWithValue("@FechaPartido", nuevoPartido.FechaPartido);
@@ -143,17 +136,17 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                Partido nuevoPartido = new Partido()
-                                {
-                                    IdPartido = reader.GetInt32(0),
-                                    IdDeporte = reader.GetInt32(1),
-                                    EquipoLocal = reader.GetString(2),
-                                    EquipoVisitante = reader.GetString(3),
-                                    FechaRegistro = reader.GetDateTime(4),
-                                    FechaPartido = reader.GetDateTime(5),
-                                    MarcadorLocal = reader.GetInt32(6),
-                                    MarcadorVisitante = reader.GetInt32(7)
-                                };
+                                Partido nuevoPartido = new Partido();
+
+                                nuevoPartido.IdPartido = reader.GetInt32(0);
+                                nuevoPartido.DeportePartido.IdDeporte = reader.GetInt32(1);
+                                nuevoPartido.EquipoLocal = reader.GetString(2);
+                                nuevoPartido.EquipoVisitante = reader.GetString(3);
+                                nuevoPartido.FechaRegistro = reader.GetDateTime(4);
+                                nuevoPartido.FechaPartido = reader.GetDateTime(5);
+                                nuevoPartido.MarcadorLocal = reader.GetInt32(6);
+                                nuevoPartido.MarcadorVisitante = reader.GetInt32(7);
+                                
                                 resultados.Add(nuevoPartido);
                             }
                         }

@@ -1,4 +1,5 @@
 ﻿using Entity;
+using Mapper;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -25,10 +26,7 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                Deporte deporte = new Deporte();
-                                deporte.IdDeporte = reader.GetInt32(0);
-                                deporte.Descripcion = reader.GetString(1);
-                                lstDeportes.Add(deporte);
+                                lstDeportes.Add(DeportesMapper.Map(reader));
                             }
 
                         }
@@ -36,6 +34,33 @@ namespace DAL
                     }
                 }
                 return lstDeportes;
+            }
+            catch (Exception ex) { throw; }
+        }
+        public Deporte getDeportesById(int idDeporte)
+        {
+            try
+            {
+                Deporte deporte = null;
+                using (SqlConnection conn = new SqlConnection(DBAccess.GetDBConnection()))
+                {
+                    conn.Open();
+                    string query = "SELECT ID_DEPORTE, DESCRIPCION FROM DEPORTE WHERE ID_DEPORTE = @ID";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@ID", idDeporte);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                // CONSULTA: si hago el return acá, saldría de los using dejando la conexión abierta??
+                                //return DeportesMapper.Map(reader);
+                                deporte = DeportesMapper.Map(reader); 
+                            }
+                        }
+                    }
+                }
+                return deporte; 
             }
             catch (Exception ex) { throw; }
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UI-PrimerParcial-LUG-CarlosRey")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+374a40ee8e9334e711d945d8fec1e09a88400756")]
 [assembly: System.Reflection.AssemblyProductAttribute("UI-PrimerParcial-LUG-CarlosRey")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UI-PrimerParcial-LUG-CarlosRey")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

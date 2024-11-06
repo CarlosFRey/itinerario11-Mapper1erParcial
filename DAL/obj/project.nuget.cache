@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+HTkVdJQGEM=",
+  "dgSpecHash": "FV5fmeexh0I=",
   "success": true,
-  "projectFilePath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\DAL\\DAL.csproj",
+  "projectFilePath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reyca\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\reyca\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

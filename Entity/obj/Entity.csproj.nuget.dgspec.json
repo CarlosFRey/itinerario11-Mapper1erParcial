@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj": {}
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj": {
+    "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj",
+        "projectUniqueName": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\Entity.csproj",
+        "projectPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\reyca\\.nuget\\packages\\",
-        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Primer Parcial\\Entity\\obj\\",
+        "outputPath": "E:\\UAI\\5to Cuatrimestre\\LUG\\Programas\\Itinerario11-Mapper\\Primer Parcial\\itinerario11-Mapper1erParcial\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

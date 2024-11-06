@@ -73,13 +73,12 @@ namespace PrimerParcial_LUG_CarlosRey
         {
             try
             {
-                Partido nuevoPartido = new Partido()
-                {
-                    IdDeporte = Convert.ToInt32(cmbDeporte.SelectedValue),
-                    EquipoLocal = txtLocal.Text,
-                    EquipoVisitante = txtVisitante.Text,
-                    FechaPartido = dtpFechaPartido.Value
-                };
+                Partido nuevoPartido = new Partido();
+                nuevoPartido.DeportePartido = new Deporte();
+                nuevoPartido.DeportePartido.IdDeporte= Convert.ToInt32(cmbDeporte.SelectedValue);
+                nuevoPartido.EquipoLocal = txtLocal.Text;
+                nuevoPartido.EquipoVisitante = txtVisitante.Text;
+                nuevoPartido.FechaPartido = dtpFechaPartido.Value;
                 partidoBLL.GuardarPartido(nuevoPartido);
                 updateGral();
 
