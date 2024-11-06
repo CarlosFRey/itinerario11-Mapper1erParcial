@@ -1,0 +1,15 @@
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\bin\Debug\net8.0\DAL.deps.json
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\bin\Debug\net8.0\DAL.dll
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\bin\Debug\net8.0\DAL.pdb
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.dll
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\refint\DAL.dll
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.pdb
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\ref\DAL.dll
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\bin\Debug\net8.0\Entity.dll
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\bin\Debug\net8.0\Entity.pdb
+E:\UAI\5to Cuatrimestre\LUG\Programas\Primer Parcial\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
